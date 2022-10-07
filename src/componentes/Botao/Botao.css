@@ -12,3 +12,18 @@
 .botao:hover{
     color: #95ffd4;
 }
+
+@media screen and (max-width: 900px) {
+    .botao{
+        min-width: 100%;
+        background-color: #6279F7;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 32px;
+        border: none;
+        cursor: pointer;
+        color: #FFF;
+        margin: 32px 0;
+    }
+  }
